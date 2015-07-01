@@ -1,8 +1,16 @@
+body {
+  font-family: arial,sans-serif;
+}
+
 ul {
   float: right;
   list-style-type: none;
-  margin: 0;
+  margin-top: 5px;
   padding: 0;
+}
+
+#navbar {
+  padding-bottom: 80px
 }
 
 #navbar a {
@@ -12,6 +20,10 @@ ul {
   color: #000;
   opacity: .75;
   font-size: .85em;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
 }
 
 li:first-child {
@@ -26,4 +38,49 @@ li {
 
 li:nth-child(-n+3) {
   margin-top: 12px;
+}
+
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#doodle {
+  margin-bottom: 20px;
+}
+
+#input_form {
+  display: block;
+  width: 500px;
+  height: 25px;
+}
+
+.button {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  height: 30px;
+  margin: 0px 5px;
+}
+
+.button.button:hover {
+background:#fff;
+color:#09C;
+}
+
+#french_offer {
+  margin: 50px auto;
+  text-align: center;
+  font-size: small
+}
+
+#french_offer a {
+  text-decoration: none;
+  color: #12c;
+}
+
+#french_offer a:hover {
+  text-decoration: underline;
 }
