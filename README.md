@@ -1,3 +1,3 @@
 # Google Homepage
 
-## [The Odin Project](http://www.theodinproject.com/)
+[The Odin Project](http://www.theodinproject.com/)
