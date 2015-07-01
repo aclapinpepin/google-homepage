@@ -1,0 +1,29 @@
+ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #000;
+  opacity: .75;
+  font-size: .85em;
+}
+
+li:first-child {
+  opacity: .55;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin-right: 5px;
+}
+
+li:nth-child(-n+3) {
+  margin-top: 12px;
+}
