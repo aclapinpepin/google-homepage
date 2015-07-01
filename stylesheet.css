@@ -1,5 +1,10 @@
-body {
+html, body {
   font-family: arial,sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0;
 }
 
 ul {
@@ -40,7 +45,8 @@ li:nth-child(-n+3) {
   margin-top: 12px;
 }
 
-.container {
+#container {
+  padding-bottom: 150px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +58,7 @@ li:nth-child(-n+3) {
 
 #input_form {
   display: block;
-  width: 500px;
+  width: 490px;
   height: 25px;
 }
 
@@ -83,4 +89,40 @@ color:#09C;
 
 #french_offer a:hover {
   text-decoration: underline;
+}
+
+#footer {
+  position : absolute;
+  bottom : 0;
+  height : 40px;
+  margin-top : 40px;
+  background: #f2f2f2;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  font-size: 10pt;
+}
+
+span {
+  line-height: 40px;
+  vertical-align: middle;
+  word-spacing: 30px;
+}
+
+span a {
+  text-decoration: none;
+  color: #666;
+}
+
+span a:hover {
+ text-decoration: underline;
+}
+
+#footer_left {
+  float: left;
+  margin-left: 30px;
+}
+
+#footer_right {
+  float: right;
+  margin-right: 30px;
 }
